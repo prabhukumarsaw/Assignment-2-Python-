@@ -1,0 +1,43 @@
+Question 1: Write a Python program to remove empty List from List
+
+	# example of a list
+			list = [{1, 2}, ('a'), ['1.1', '2.2']]
+
+	# clearing the list
+			del list[:]
+
+			print('List:', list)
+			
+			
+			
+			
+Question 2: Write a Python program to remove all duplicates words from a given sentence
+			
+			
+			
+sent = "prabhu Roshan, Divya, Parth, Pawan, Parth, Rahul, Prabhu"
+l = sent.split() 
+k = [] 
+for i in l: 
+  
+    if (sent.count(i)>1 and (i not in k)or sent.count(i)==1): 
+        k.append(i) 
+print(' '.join(k)) 
+
+
+
+
+Question 3 : Write a Python program to find all occurrences of a character in the given 
+
+#using dictionary
+		inp_str = "Prabhu"
+		f = {}  
+		
+		for ele in inp_str:  
+    if ele in f:  
+        f[ele] += 1
+    else:  
+        f[ele] = 1
+    
+ 
+print ("Occurrence : "+ str(f))  
